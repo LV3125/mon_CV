@@ -11,3 +11,16 @@
 #bandeau-gauche{
 	background: #FF9C86;
 }
+	/* TITRE
+	*********
+	*/
+	.background-gris{
+		background:#666;
+	}
+	.h3-band-gauche{
+		text-transform: uppercase;
+		text-align: center;
+		color: #FF9C86;
+		font-size: 1.8em;
+		margin: 18px 0px;
+	}
