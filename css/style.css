@@ -104,8 +104,25 @@ a:hover{
 	header{
 		margin: 80px 150px;
 	}
-	#separateur-titre{
+	#separateur-header{
 	width: 80px;
 	height: 3px;
 	background: #FF9C86;
+	}
+	/* TITRE
+	************
+	*/
+	.icone-titre{
+		font-size: 3em;
+		margin: 50px 20px 0px 150px;
+	}
+	#bandeau-droit h3{
+		display: inline-block;
+		text-transform: uppercase;
+	}
+	.separateur{
+		width: 80%;
+		height: 3px;
+		margin: 10px 0px 50px 150px;
+		background: #FF9C86;
 	}
