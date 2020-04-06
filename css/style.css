@@ -7,6 +7,9 @@ a:hover{
 .gris{
 	color: #666;
 }
+.orange{
+	color: #FF9C86;
+}
 
 /* BANDEAU GAUCHE
 ******************
@@ -95,3 +98,14 @@ a:hover{
 	position: absolute;
 	right: 0;
 }
+	/* HEADER
+	************
+	*/
+	header{
+		margin: 80px 150px;
+	}
+	#separateur-titre{
+	width: 80px;
+	height: 3px;
+	background: #FF9C86;
+	}
