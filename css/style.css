@@ -4,6 +4,9 @@
 a:hover{
 	text-decoration: none;
 }
+#bandeau-droit p{
+	display: inline;
+}
 .gris{
 	color: #666;
 }
@@ -125,4 +128,16 @@ a:hover{
 		height: 3px;
 		margin: 10px 0px 50px 150px;
 		background: #FF9C86;
+	}
+	/* TEXTE
+	************
+	*/
+	.tab25px{
+		margin-left: 25px;
+	}
+	.tab40px{
+		margin-left: 40px;
+	}
+	.etape{
+		margin: 0px 0px 40px 80px;
 	}
