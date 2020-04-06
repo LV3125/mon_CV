@@ -64,7 +64,27 @@ a:hover{
 	#bandeau-gauche p{
 		padding: 30px 20px;
 	}
-
+	/* LOISIRS 
+	************
+	*/
+	#loisirs div{
+		height: 80px;
+		margin-top: 30px;
+		margin-bottom: 30px;
+		background-position: center;
+		background-size: 70%;
+		border: 2px solid #666;
+		border-radius: 50%;
+	}
+	#danse-icone{
+		background: url("images/dress.svg") no-repeat;
+	}
+	#jeux-video-icone{
+		background: url("images/joystick.svg") no-repeat;
+	}
+	#cinema-icone{
+		background: url("images/cinema.svg") no-repeat;
+	}
 
 /* BANDEAU DROIT
 *****************
