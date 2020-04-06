@@ -52,11 +52,13 @@ a:hover{
 	*/
 	#bandeau-gauche ul{
 		list-style: none;
+		padding: 0;
+		word-break: break-all;
 	}
 	#bandeau-gauche i{
 		font-size: 1.5em;
-		padding: 10px 20px;
-		width: 80px;
+		padding: 10px 10px;
+		width: 60px;
 	}
 	/* A PROPOS DE MOI 
 	********************
@@ -69,8 +71,8 @@ a:hover{
 	*/
 	#loisirs div{
 		height: 80px;
-		margin-top: 30px;
-		margin-bottom: 30px;
+		width: 80px;
+		margin: 30px auto;
 		background-position: center;
 		background-size: 70%;
 		border: 2px solid #666;
