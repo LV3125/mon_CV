@@ -1,0 +1,205 @@
+/* STYLE POUR PETITE TABLETTE (>= 576PX) 
+***************************************
+*/
+
+@media all and (min-width: 576px) and (max-width: 767px) {
+/* GENERAL 
+*************
+*/
+body, a{
+	color: #333;
+	letter-spacing: 0.1em;
+}
+a:hover{
+	text-decoration: none;
+	color: #666;
+}
+#bandeau-droit p{
+	display: inline;
+}
+.gris{
+	color: #666;
+}
+.orange{
+	color: #FF9C86;
+}
+.gris-fonce{
+	color: #333;
+}
+.souligne{
+	text-decoration: underline;
+}
+.italic{
+	font-style: italic;
+}
+	/* FONT 
+	********
+	*/
+	h1{
+		font-family: 'Amatic SC', cursive;
+	}
+	h2, h3, h4, h5, p, li, a{
+		font-family: 'Comic Neue', cursive;
+	}
+	h1, h2, h3, h4, h5{
+		font-weight: bold;
+	}
+
+/* BANDEAU GAUCHE
+******************
+*/
+#bandeau-gauche{
+	background: #FF9C86;
+	margin-top: 50px;
+}
+	/* PHOTO CV
+	************
+	*/
+	#photo-cv{
+		display: none;
+	}
+	#photo-tablet-mobile{
+		position: absolute;
+		z-index: 1;
+		left: 5%;
+    	overflow:hidden;
+    	-webkit-border-radius:50px;
+    	-moz-border-radius:50px;
+    	border-radius:150px;
+    	width:200px;
+    	height:200px;
+    	margin: 20px auto;
+    	border: 3px solid #e29b8a;
+	}
+	#photo-tablet-mobile img{
+		width:200px;
+	}
+	/* TITRES
+	*********
+	*/
+	.background-gris{
+		background:#666;
+	}
+	.h3-band-gauche{
+		text-transform: uppercase;
+		text-align: center;
+		color: #FF9C86;
+		font-size: 1.5em;
+		margin: 18px 0px;
+	}
+	/* CONTACT
+	************
+	*/
+	#bandeau-gauche ul{
+		list-style: none;
+		padding: 0px;
+		margin: 20px 30px;
+		word-break: break-all;
+	}
+	#bandeau-gauche i{
+		font-size: 1.5em;
+		padding: 10px 10px;
+		width: 60px;
+	}
+	/* A PROPOS DE MOI 
+	********************
+	*/
+	#bandeau-gauche p{
+		padding: 30px 20px;
+	}
+	/* LOISIRS 
+	************
+	*/
+	#loisirs{
+		margin: 20px auto;
+	}
+	#loisirs div{
+		display: inline-block;
+		height: 80px;
+		width: 80px;
+		margin-left: 30px;
+		margin-bottom: 10px;
+		background-position: center;
+		background-size: 70%;
+		border: 2px solid #666;
+		border-radius: 50%;
+	}
+	#danse-icone{
+		background: url("images/dress.svg") no-repeat;
+	}
+	#jeux-video-icone{
+		background: url("images/joystick.svg") no-repeat;
+	}
+	#cinema-icone{
+		background: url("images/cinema.svg") no-repeat;
+	}
+
+/* BANDEAU DROIT
+*****************
+*/
+#bandeau-droit h3{
+	font-size: 1.8em;
+}
+#bandeau-droit h4{
+	text-transform: uppercase;
+	font-size: 1.3em;
+}
+#bandeau-droit p{
+	font-size: 0.8em;
+}
+	/* HEADER
+	************
+	*/
+	#screen-header{
+		display: none;
+	}
+	h1{
+		margin-top: 10px;
+		font-size: 4.5em;
+	}
+	h2{
+		font-size: 1.6em;
+	}
+	.separateur-header{
+		width: 80px;
+		height: 3px;
+		background: #FF9C86;
+	}
+	
+	/* TITRE
+	************
+	*/
+	.icone-titre{
+		font-size: 3em;
+		margin: 50px 20px 0px 20px;
+	}
+	#bandeau-droit h3{
+		display: inline-block;
+		text-transform: uppercase;
+	}
+	.separateur{
+		width: 90%;
+		height: 3px;
+		margin: 10px 0px 50px 20px;
+		background: #FF9C86;
+	}
+	/* TEXTE
+	************
+	*/
+	.tab25px{
+		margin-left: 25px;
+	}
+	.tab40px{
+		margin-left: 40px;
+	}
+	.etape{
+		margin: 0px 0px 40px 20px;
+	}
+	/* RECOMMANDATION
+	************
+	*/
+	.fiche-recommandation{
+		margin: 0px 0px 40px 50px;
+	}
+
+}
