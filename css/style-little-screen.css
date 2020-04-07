@@ -1,9 +1,9 @@
-/* STYLE POUR GRAND ECRAN (>= 1200PX) 
+/* STYLE POUR PETIT ECRAN (>= 992PX) 
 ***************************************
 */
 
-@media all and (min-width: 1200px) {
-  /* GENERAL 
+@media all and (min-width: 992px) and (max-width: 1999px) {
+/* GENERAL 
 *************
 */
 body, a{
@@ -153,12 +153,13 @@ a:hover{
 		height: 3px;
 		background: #FF9C86;
 	}
+	
 	/* TITRE
 	************
 	*/
 	.icone-titre{
 		font-size: 3em;
-		margin: 50px 20px 0px 150px;
+		margin: 50px 20px 0px 100px;
 	}
 	#bandeau-droit h3{
 		display: inline-block;
@@ -167,7 +168,7 @@ a:hover{
 	.separateur{
 		width: 80%;
 		height: 3px;
-		margin: 10px 0px 50px 150px;
+		margin: 10px 0px 50px 100px;
 		background: #FF9C86;
 	}
 	/* TEXTE
@@ -180,7 +181,7 @@ a:hover{
 		margin-left: 40px;
 	}
 	.etape{
-		margin: 0px 0px 40px 80px;
+		margin: 0px 0px 40px 50px;
 	}
 	/* RECOMMANDATION
 	************
@@ -188,5 +189,5 @@ a:hover{
 	.fiche-recommandation{
 		margin: 0px 0px 40px 150px;
 	}
-}
 
+}
