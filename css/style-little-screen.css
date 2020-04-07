@@ -107,10 +107,13 @@ a:hover{
 	/* LOISIRS 
 	************
 	*/
+	#loisirs{
+		margin: 20px auto;
+	}
 	#loisirs div{
 		height: 80px;
 		width: 80px;
-		margin: 30px auto;
+		margin-bottom: 10px;
 		background-position: center;
 		background-size: 70%;
 		border: 2px solid #666;
@@ -142,13 +145,16 @@ a:hover{
 	/* HEADER
 	************
 	*/
-	header{
+	#screen-header{
 		margin: 80px 150px;
+	}
+	#tablet-mobile-header{
+		display: none;
 	}
 	h1{
 		font-size: 6em;
 	}
-	#separateur-header{
+	.separateur-header{
 		width: 80px;
 		height: 3px;
 		background: #FF9C86;

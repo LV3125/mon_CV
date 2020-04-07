@@ -1,9 +1,9 @@
-/* STYLE POUR GRAND ECRAN (>= 1200PX) 
+/* STYLE POUR TABLETTE (>= 768PX) 
 ***************************************
 */
 
-@media all and (min-width: 1200px) {
- /* GENERAL 
+@media all and (min-width: 768px) and (max-width: 991px) {
+/* GENERAL 
 *************
 */
 body, a{
@@ -50,16 +50,19 @@ a:hover{
 */
 #bandeau-gauche{
 	background: #FF9C86;
-	position: fixed;
-	height: 100vh;
-	box-shadow: 0px 0px 31px grey;
-	overflow: auto;
+	margin-top: 50px;
 }
 	/* PHOTO CV
 	************
 	*/
 	#photo-cv{
-    	 overflow:hidden;
+		display: none;
+	}
+	#photo-tablet-mobile{
+		position: absolute;
+		z-index: 1;
+		left: 5%;
+    	overflow:hidden;
     	-webkit-border-radius:50px;
     	-moz-border-radius:50px;
     	border-radius:150px;
@@ -68,7 +71,7 @@ a:hover{
     	margin: 20px auto;
     	border: 3px solid #e29b8a;
 	}
-	#photo-cv img{
+	#photo-tablet-mobile img{
 		width:200px;
 	}
 	/* TITRES
@@ -90,7 +93,7 @@ a:hover{
 	#bandeau-gauche ul{
 		list-style: none;
 		padding: 0px;
-		margin: 20px 0px;
+		margin: 20px 30px;
 		word-break: break-all;
 	}
 	#bandeau-gauche i{
@@ -114,6 +117,8 @@ a:hover{
 		display: inline-block;
 		height: 80px;
 		width: 80px;
+		margin-left: 30px;
+		margin-bottom: 10px;
 		background-position: center;
 		background-size: 70%;
 		border: 2px solid #666;
@@ -132,10 +137,6 @@ a:hover{
 /* BANDEAU DROIT
 *****************
 */
-#bandeau-droit{
-	position: absolute;
-	right: 0;
-}
 #bandeau-droit h3{
 	font-size: 2em;
 }
@@ -146,34 +147,36 @@ a:hover{
 	************
 	*/
 	#screen-header{
-		margin: 80px 150px;
-	}
-	#tablet-mobile-header{
 		display: none;
 	}
 	h1{
-		font-size: 6em;
+		margin-top: 10px;
+		font-size: 5em;
+	}
+	h2{
+		font-size: 1.8em;
 	}
 	.separateur-header{
 		width: 80px;
 		height: 3px;
 		background: #FF9C86;
 	}
+	
 	/* TITRE
 	************
 	*/
 	.icone-titre{
 		font-size: 3em;
-		margin: 50px 20px 0px 150px;
+		margin: 50px 20px 0px 50px;
 	}
 	#bandeau-droit h3{
 		display: inline-block;
 		text-transform: uppercase;
 	}
 	.separateur{
-		width: 80%;
+		width: 90%;
 		height: 3px;
-		margin: 10px 0px 50px 150px;
+		margin: 10px 0px 50px 50px;
 		background: #FF9C86;
 	}
 	/* TEXTE
@@ -186,13 +189,13 @@ a:hover{
 		margin-left: 40px;
 	}
 	.etape{
-		margin: 0px 0px 40px 80px;
+		margin: 0px 0px 40px 50px;
 	}
 	/* RECOMMANDATION
 	************
 	*/
 	.fiche-recommandation{
-		margin: 0px 0px 40px 150px;
+		margin: 0px 0px 40px 80px;
 	}
-}
 
+}
