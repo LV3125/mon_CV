@@ -14,7 +14,7 @@ a:hover{
 	text-decoration: none;
 	color: #666;
 }
-#bandeau-droit p{
+#bandeau-etapes p{
 	display: inline;
 }
 .gris{
@@ -45,10 +45,10 @@ a:hover{
 		font-weight: bold;
 	}
 
-/* BANDEAU GAUCHE
+/* BANDEAU INFOS
 ******************
 */
-#bandeau-gauche{
+#bandeau-infos{
 	background: #FF9C86;
 	margin-top: 50px;
 }
@@ -80,7 +80,7 @@ a:hover{
 	.background-gris{
 		background:#666;
 	}
-	.h3-band-gauche{
+	.h3-band-infos{
 		text-transform: uppercase;
 		text-align: center;
 		color: #FF9C86;
@@ -90,13 +90,13 @@ a:hover{
 	/* CONTACT
 	************
 	*/
-	#bandeau-gauche ul{
+	#bandeau-infos ul{
 		list-style: none;
 		padding: 0px;
 		margin: 20px 30px;
 		word-break: break-all;
 	}
-	#bandeau-gauche i{
+	#bandeau-infos i{
 		font-size: 1.5em;
 		padding: 10px 10px;
 		width: 60px;
@@ -104,7 +104,7 @@ a:hover{
 	/* A PROPOS DE MOI 
 	********************
 	*/
-	#bandeau-gauche p{
+	#bandeau-infos p{
 		padding: 30px 20px;
 	}
 	/* LOISIRS 
@@ -134,17 +134,17 @@ a:hover{
 		background: url("images/cinema.svg") no-repeat;
 	}
 
-/* BANDEAU DROIT
+/* BANDEAU ETAPES
 *****************
 */
-#bandeau-droit h3{
+#bandeau-etapes h3{
 	font-size: 1.8em;
 }
-#bandeau-droit h4{
+#bandeau-etapes h4{
 	text-transform: uppercase;
 	font-size: 1.3em;
 }
-#bandeau-droit p{
+#bandeau-etapes p{
 	font-size: 0.8em;
 }
 	/* HEADER
@@ -173,7 +173,7 @@ a:hover{
 		font-size: 3em;
 		margin: 50px 20px 0px 20px;
 	}
-	#bandeau-droit h3{
+	#bandeau-etapes h3{
 		display: inline-block;
 		text-transform: uppercase;
 	}
