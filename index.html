@@ -12,14 +12,12 @@
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
 		<!-- CSS 
-		Une feuille de style par format d'écran. M
+		Une feuille de style par format d'écran. 
 		Mise en place de media queries pour ne charger que la feuille de style nécessaire selon le format
 		-->
 		<link rel="stylesheet" media="all and (min-width: 1200px)" href="css/style.css" type="text/css" />
-		<link rel="stylesheet" media="all and (min-width: 992px) and (max-width: 1999px)" href="css/style-little-screen.css" type="text/css" />
-		<link rel="stylesheet" media="all and (min-width: 768px) and (max-width: 991px)" href="css/style-tablette.css" type="text/css" />
-		<link rel="stylesheet" media="all and (min-width: 576px) and (max-width: 767px)" href="css/style-little-tablette.css" type="text/css" />
-		<link rel="stylesheet" media="all and (max-width: 575px)" href="css/style-mobile.css" type="text/css" />
+		<link rel="stylesheet" media="all and (min-width: 992px) and (max-width: 1999px)" href="css/style-intermediaire.css" type="text/css" />
+		<link rel="stylesheet" media="all and (max-width: 991px)" href="css/style-mobile.css" type="text/css" />
 
 		<!-- FONTAWESOME CDN -->
 		<script src="https://kit.fontawesome.com/031b4ad8ad.js" crossorigin="anonymous"></script>
@@ -51,17 +49,17 @@
 				<!-- BANDEAU INFOS 
 				*********************
 				-->
-				<div id="bandeau-infos" class="col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12">
+				<div id="bandeau-infos" class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3">
 					<!-- photo cv format ecran petit et grand
 					Elle est cachée lorsqu'on est sur mobile et tablette 
 					-->
 					<div id="photo-cv"><img src="css/images/photo-cv.png" alt="Photo CV Laura Valez" /></div>
 					<!-- contact -->
 					<div class="row">
-						<div class="col-xl-12 col-lg-12 order-lg-1 col-md-6 order-md-1 col-sm-12 col-12 background-gris">
+						<div class="col-12 order-1 col-sm-12 order-sm-1 col-md-12 col-lg-12 order-lg-1 col-xl-12 background-gris">
 							<h3 class="h3-band-infos">Contact</h3>
 						</div>
-						<div class="col-xl-12 col-lg-12 order-lg-2 col-md-6 order-md-3 col-sm-12 col-12">
+						<div class="col-12 order-2 col-sm-12 order-sm-2 col-md-12 col-lg-12 order-lg-2 col-xl-12">
 							<ul>
 								<li><i class="fas fa-map-marker-alt gris"></i>81000 - Albi</li>
 								<li><i class="fas fa-mobile-alt gris"></i>06 24 79 38 17</li>
@@ -71,17 +69,17 @@
 							</ul>
 						</div>
 					<!-- à propos -->
-						<div class="col-xl-12 col-lg-12 order-lg-3 col-md-6 order-md-2 col-sm-12 col-12 background-gris">
+						<div class="col-12 order-3 col-sm-12 order-sm-3 col-md-12 col-lg-12 order-lg-3 col-xl-12 background-gris">
 							<h3 class="h3-band-infos">à propos de moi</h3>
 						</div>
-						<div class="col-xl-12 col-lg-12 col-md-6 order-md-4 col-sm-12 col-12">
+						<div class="col-12 order-4 col-sm-12 order-sm-4 col-md-12 col-lg-12 col-xl-12">
 							<p>Dans ma quête sans limites de connaissances, j'ai choisi l'auto apprentissage afin d'ouvrir tous les champs de possibles me permettant d'explorer et de me perfectionner en informatique, ma passion. Curieuse et rigoureuse, mes capacités d'adaptation sont sans limites. Et tout projet devient un challenge qui me permet d'accroitre mes connaissances et compétences, que je viens mettre à votre service, aujourd'hui.</p>
 						</div>
 					<!-- Loisirs -->
-						<div class="col-xl-12 col-lg-12 col-md-12 order-md-6 col-sm-12 col-12 background-gris">
+						<div class="col-12 order-5 col-sm-12 order-sm-5 col-md-12 col-lg-12 col-xl-12 background-gris">
 							<h3 class="h3-band-infos">Loisirs</h3>
 						</div>
-						<div id="loisirs" class="order-md-6">
+						<div id="loisirs" class="order-md-6 order-sm-6 order-6">
 							<div id="danse-icone"></div>
 							<div id="jeux-video-icone"></div>
 							<div id="cinema-icone"></div>
@@ -92,13 +90,13 @@
 				<!-- BANDEAU ETAPES 
 				*********************
 				-->
-				<div id="bandeau-etapes" class="col-xl-9 col-lg-9 col-md-12 col-sm-12 col-12">
+				<div id="bandeau-etapes" class="col-12 col-sm-12 col-md-12 col-lg-9 col-xl-9">
 					<!-- Le header format ordinateur
 					Il est caché lorsqu'on est sur mobile et tablette
 					-->
 					<header id="screen-header">
 						<div class="row">
-							<div class="col-xl-12 col-lg-12 col-md-12">
+							<div class="col-md-12 col-lg-12 col-xl-12">
 								<h1 class="gris"><span class="orange">Laura</span> Valez</h1>
 								<h2 class="gris">Développeuse Web Freelance</h2>
 								<div class="separateur-header"></div>
@@ -107,13 +105,13 @@
 					</header>
 					<!-- formations -->
 					<div class="row">
-						<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+						<div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
 							<i class="fas fa-graduation-cap orange icone-titre"></i><h3 class="gris-fonce">Formation</h3>
 							<div class="separateur"></div>
 						</div>
 					</div>
 					<div class="row etape">
-						<div class="offset-xl-1 col-xl-3 offset-lg-1 col-lg-4 col-md-4 col-sm-5 col-6">
+						<div class="col-6 col-sm-5 col-md-4 offset-lg-1 col-lg-4 offset-xl-1 col-xl-3">
 							<i class="far fa-dot-circle orange"></i><p class="tab25px">2020 - 2021<br /><span class="tab40px italic">Albi</span></p>
 						</div>
 						<div class="offset-xl-1 col-xl-6 offset-lg-1 col-lg-5 offset-md-1 col-md-7 col-sm-7 col-6">

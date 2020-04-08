@@ -1,8 +1,8 @@
-/* STYLE POUR MOBILE (< 576PX) 
+/* STYLE PETIT FORMAT (< 991PX) 
 ***************************************
 */
 
-@media all and (max-width: 575px) {
+@media all and (max-width: 991px) {
 /* GENERAL 
 *************
 */
@@ -50,7 +50,7 @@ a:hover{
 */
 #bandeau-infos{
 	background: #FF9C86;
-	margin-top: 50px;
+	margin-top: 70px;
 }
 	/* PHOTO CV
 	************
@@ -66,13 +66,13 @@ a:hover{
     	-webkit-border-radius:50px;
     	-moz-border-radius:50px;
     	border-radius:150px;
-    	width:180px;
-    	height:180px;
+    	width:250px;
+    	height:250px;
     	margin: 20px auto;
     	border: 3px solid #e29b8a;
 	}
 	#photo-tablet-mobile img{
-		width:180px;
+		width:250px;
 	}
 	/* TITRES
 	*********
@@ -84,7 +84,7 @@ a:hover{
 		text-transform: uppercase;
 		text-align: center;
 		color: #FF9C86;
-		font-size: 1.3em;
+		font-size: 2em;
 		margin: 18px 0px;
 	}
 	/* CONTACT
@@ -97,7 +97,7 @@ a:hover{
 		word-break: break-all;
 	}
 	#bandeau-infos i{
-		font-size: 1.5em;
+		font-size: 1.8em;
 		padding: 10px 10px;
 		width: 60px;
 	}
@@ -138,14 +138,14 @@ a:hover{
 *****************
 */
 #bandeau-etapes h3{
-	font-size: 1.5em;
+	font-size: 2em;
 }
 #bandeau-etapes h4{
 	text-transform: uppercase;
-	font-size: 1.1em;
+	font-size: 1.5em;
 }
 #bandeau-etapes p{
-	font-size: 0.8em;
+	font-size: 1.2em;
 }
 	/* HEADER
 	************
@@ -154,11 +154,11 @@ a:hover{
 		display: none;
 	}
 	h1{
-		margin-top: 10px;
-		font-size: 3.8em;
+		margin-top: 40px;
+		font-size: 4.5em;
 	}
 	h2{
-		font-size: 1.4em;
+		font-size: 2em;
 	}
 	.separateur-header{
 		width: 80px;
