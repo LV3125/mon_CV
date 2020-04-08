@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<!-- PARTIE HEAD -->
+		<!-- PARTIE HEAD 
+		********************
+		-->
 		<meta charset="utf-8" />
 		<title>Laura Valez - CV</title>
 
@@ -9,7 +11,10 @@
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
-		<!-- CSS -->
+		<!-- CSS 
+		Une feuille de style par format d'écran. M
+		Mise en place de media queries pour ne charger que la feuille de style nécessaire selon le format
+		-->
 		<link rel="stylesheet" media="all and (min-width: 1200px)" href="css/style.css" type="text/css" />
 		<link rel="stylesheet" media="all and (min-width: 992px) and (max-width: 1999px)" href="css/style-little-screen.css" type="text/css" />
 		<link rel="stylesheet" media="all and (min-width: 768px) and (max-width: 991px)" href="css/style-tablette.css" type="text/css" />
@@ -28,27 +33,33 @@
 		***********************
 		-->
 		<div class="container-fluid">
-			<!-- header format tablette et mobile -->
-					<header id="tablet-mobile-header">
-						<div class="row">
-							<!-- photo cv format tablette et mobile -->
-							<div id="photo-tablet-mobile"><img src="css/images/photo-cv.png" alt="Photo CV Laura Valez" /></div>
-							<div class="offset-md-5 col-md-7 offset-sm-5 col-sm-7 offset-6 col-6">
-								<h1 class="gris"><span class="orange">Laura</span> Valez</h1>
-								<h2 class="gris">Développeuse Web Freelance</h2>
-								<div class="separateur-header"></div>
-							</div>
-						</div>
-					</header>
+			<!-- Le header format tablette et mobile
+			Il est caché lorsqu'on se trouve sur écran supérieur à 991px
+			-->
+			<header id="tablet-mobile-header">
+				<div class="row">
+					<div id="photo-tablet-mobile"><img src="css/images/photo-cv.png" alt="Photo CV Laura Valez" /></div>
+					<div class="offset-md-5 col-md-7 offset-sm-5 col-sm-7 offset-6 col-6">
+						<h1 class="gris"><span class="orange">Laura</span> Valez</h1>
+						<h2 class="gris">Développeuse Web Freelance</h2>
+						<div class="separateur-header"></div>
+					</div>
+				</div>
+			</header>
+
 			<div class="row">
-				<!-- BANDEAU GAUCHE -->
-				<div id="bandeau-gauche" class="col-xl-3 col-lg-3">
-					<!-- photo cv format ecran petit et grand -->
+				<!-- BANDEAU INFOS 
+				*********************
+				-->
+				<div id="bandeau-infos" class="col-xl-3 col-lg-3">
+					<!-- photo cv format ecran petit et grand
+					Elle est cachée lorsqu'on est sur mobile et tablette 
+					-->
 					<div id="photo-cv"><img src="css/images/photo-cv.png" alt="Photo CV Laura Valez" /></div>
 					<!-- contact -->
 					<div class="row">
 						<div class="col-xl-12 col-lg-12 order-lg-1 col-md-6 order-md-1 background-gris">
-							<h3 class="h3-band-gauche">Contact</h3>
+							<h3 class="h3-band-infos">Contact</h3>
 						</div>
 						<div class="col-xl-12 col-lg-12 order-lg-2 col-md-6 order-md-3">
 							<ul>
@@ -61,14 +72,14 @@
 						</div>
 					<!-- à propos -->
 						<div class="col-xl-12 col-lg-12 order-lg-3 col-md-6 order-md-2 background-gris">
-							<h3 class="h3-band-gauche">à propos de moi</h3>
+							<h3 class="h3-band-infos">à propos de moi</h3>
 						</div>
 						<div class="col-xl-12 col-lg-12 col-md-6 order-md-4">
 							<p>Dans ma quête sans limites de connaissances, j'ai choisi l'auto apprentissage afin d'ouvrir tous les champs de possibles me permettant d'explorer et de me perfectionner en informatique, ma passion. Curieuse et rigoureuse, mes capacités d'adaptation sont sans limites. Et tout projet devient un challenge qui me permet d'accroitre mes connaissances et compétences, que je viens mettre à votre service, aujourd'hui.</p>
 						</div>
 					<!-- Loisirs -->
 						<div class="col-xl-12 col-lg-12 col-md-12 order-md-6 background-gris">
-							<h3 class="h3-band-gauche">Loisirs</h3>
+							<h3 class="h3-band-infos">Loisirs</h3>
 						</div>
 						<div id="loisirs" class="order-md-6">
 							<div id="danse-icone"></div>
@@ -78,9 +89,13 @@
 					</div>
 				</div>
 
-				<!-- BANDEAU DROIT -->
-				<div id="bandeau-droit" class="col-xl-9 col-lg-9 col-md-12">
-					<!-- header format ecran petit et grand -->
+				<!-- BANDEAU ETAPES 
+				*********************
+				-->
+				<div id="bandeau-etapes" class="col-xl-9 col-lg-9 col-md-12">
+					<!-- Le header format ordinateur
+					Il est caché lorsqu'on est sur mobile et tablette
+					-->
 					<header id="screen-header">
 						<div class="row">
 							<div class="col-xl-12 col-lg-12 col-md-12">
