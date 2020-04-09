@@ -5,6 +5,7 @@
 		********************
 		-->
 		<meta charset="utf-8" />
+		<meta name=viewport content="width=device-width, initial-scale=1">
 		<title>Laura Valez - CV</title>
 
 		<!-- BOOTSTRAP CDN -->
@@ -15,9 +16,10 @@
 		Une feuille de style par format d'écran. 
 		Mise en place de media queries pour ne charger que la feuille de style nécessaire selon le format
 		-->
-		<link rel="stylesheet" media="all and (min-width: 1200px)" href="css/style.css" type="text/css" />
-		<link rel="stylesheet" media="all and (min-width: 992px) and (max-width: 1999px)" href="css/style-intermediaire.css" type="text/css" />
-		<link rel="stylesheet" media="all and (max-width: 991px)" href="css/style-mobile.css" type="text/css" />
+		<link rel="stylesheet" media="(max-width: 575px)" href="css/small-device-portrait.css" type="text/css" />
+		<link rel="stylesheet" media="(min-width: 576px) and (max-width: 767px)" href="css/small-device-landscape.css" type="text/css" />
+		<link rel="stylesheet" media="(min-width: 768px) and (max-width: 1199px)" href="css/medium-device.css" type="text/css" />
+		<link rel="stylesheet" media="(min-width: 1200px)" href="css/large-device.css" type="text/css" />
 
 		<!-- FONTAWESOME CDN -->
 		<script src="https://kit.fontawesome.com/031b4ad8ad.js" crossorigin="anonymous"></script>
@@ -49,17 +51,17 @@
 				<!-- BANDEAU INFOS 
 				*********************
 				-->
-				<div id="bandeau-infos" class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3">
+				<div id="bandeau-infos" class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-3">
 					<!-- photo cv format ecran petit et grand
 					Elle est cachée lorsqu'on est sur mobile et tablette 
 					-->
 					<div id="photo-cv"><img src="css/images/photo-cv.png" alt="Photo CV Laura Valez" /></div>
 					<!-- contact -->
 					<div class="row">
-						<div class="col-12 order-1 col-sm-12 order-sm-1 col-md-12 col-lg-12 order-lg-1 col-xl-12 background-gris">
+						<div class="col-12 order-1 col-sm-12 order-sm-1 col-md-6 order-md-1 col-lg-6 order-lg-1 col-xl-12 order-xl-1 background-gris">
 							<h3 class="h3-band-infos">Contact</h3>
 						</div>
-						<div class="col-12 order-2 col-sm-12 order-sm-2 col-md-12 col-lg-12 order-lg-2 col-xl-12">
+						<div class="col-12 order-2 col-sm-12 order-sm-2 col-md-6 order-md-3 col-lg-6 order-lg-3 col-xl-12 order-xl-2">
 							<ul>
 								<li><i class="fas fa-map-marker-alt gris"></i>81000 - Albi</li>
 								<li><i class="fas fa-mobile-alt gris"></i>06 24 79 38 17</li>
@@ -69,17 +71,17 @@
 							</ul>
 						</div>
 					<!-- à propos -->
-						<div class="col-12 order-3 col-sm-12 order-sm-3 col-md-12 col-lg-12 order-lg-3 col-xl-12 background-gris">
+						<div class="col-12 order-3 col-sm-12 order-sm-3 col-md-6 order-md-2 col-lg-6 order-lg-2 col-xl-12 order-xl-3 background-gris">
 							<h3 class="h3-band-infos">à propos de moi</h3>
 						</div>
-						<div class="col-12 order-4 col-sm-12 order-sm-4 col-md-12 col-lg-12 col-xl-12">
+						<div class="col-12 order-4 col-sm-12 order-sm-4 col-md-6 order-md-4 col-lg-6 order-lg-4 col-xl-12 order-xl-4">
 							<p>Dans ma quête sans limites de connaissances, j'ai choisi l'auto apprentissage afin d'ouvrir tous les champs de possibles me permettant d'explorer et de me perfectionner en informatique, ma passion. Curieuse et rigoureuse, mes capacités d'adaptation sont sans limites. Et tout projet devient un challenge qui me permet d'accroitre mes connaissances et compétences, que je viens mettre à votre service, aujourd'hui.</p>
 						</div>
 					<!-- Loisirs -->
-						<div class="col-12 order-5 col-sm-12 order-sm-5 col-md-12 col-lg-12 col-xl-12 background-gris">
+						<div class="col-12 order-5 col-sm-12 order-sm-5 col-md-12 order-md-5 col-lg-12 order-lg-5 col-xl-12 order-xl-5 background-gris">
 							<h3 class="h3-band-infos">Loisirs</h3>
 						</div>
-						<div id="loisirs" class="order-md-6 order-sm-6 order-6">
+						<div id="loisirs" class="order-xl-6 order-lg-6 order-md-6 order-sm-6 order-6">
 							<div id="danse-icone"></div>
 							<div id="jeux-video-icone"></div>
 							<div id="cinema-icone"></div>
@@ -90,7 +92,7 @@
 				<!-- BANDEAU ETAPES 
 				*********************
 				-->
-				<div id="bandeau-etapes" class="col-12 col-sm-12 col-md-12 col-lg-9 col-xl-9">
+				<div id="bandeau-etapes" class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-9">
 					<!-- Le header format ordinateur
 					Il est caché lorsqu'on est sur mobile et tablette
 					-->
@@ -112,7 +114,7 @@
 					</div>
 					<div class="row etape">
 						<div class="col-6 col-sm-5 col-md-4 offset-lg-1 col-lg-4 offset-xl-1 col-xl-3">
-							<i class="far fa-dot-circle orange"></i><p class="tab25px">2020 - 2021<br /><span class="tab40px italic">Albi</span></p>
+							<i class="far fa-dot-circle orange"></i><p class="tab1">2020 - 2021<br /><span class="tab2 italic">Albi</span></p>
 						</div>
 						<div class="offset-xl-1 col-xl-6 offset-lg-1 col-lg-5 offset-md-1 col-md-7 col-sm-7 col-6">
 							<h4>Openclassrooms</h4>
@@ -121,7 +123,7 @@
 					</div>
 					<div class="row etape">
 						<div class="offset-xl-1 col-xl-3 offset-lg-1 col-lg-4 col-md-4 col-sm-5 col-6">
-							<i class="fas fa-circle orange"></i><p class="tab25px">2019 - 2020 <br /><span class="tab40px italic">Montpellier</span></p>
+							<i class="fas fa-circle orange"></i><p class="tab1">2019 - 2020 <br /><span class="tab2 italic">Montpellier</span></p>
 						</div>
 						<div class="offset-xl-1 col-xl-6 offset-lg-1 col-lg-5 offset-md-1 col-md-7 col-sm-7 col-6">
 							<h4>Ajyle - Adonis</h4>
@@ -130,7 +132,7 @@
 					</div>
 					<div class="row etape">
 						<div class="offset-xl-1 col-xl-3 offset-lg-1 col-lg-4 col-md-4 col-sm-5 col-6">
-							<i class="fas fa-circle orange"></i><p class="tab25px">2016 - 2017 <br /><span class="tab40px italic">Montpellier</span></p>
+							<i class="fas fa-circle orange"></i><p class="tab1">2016 - 2017 <br /><span class="tab2 italic">Montpellier</span></p>
 						</div>
 						<div class="offset-xl-1 col-xl-6 offset-lg-1 col-lg-5 offset-md-1 col-md-7 col-sm-7 col-6">
 							<h4>Université Paul Valéry 3</h4>
@@ -139,7 +141,7 @@
 					</div>
 					<div class="row etape">
 						<div class="offset-xl-1 col-xl-3 offset-lg-1 col-lg-4 col-md-4 col-sm-5 col-6">
-							<i class="fas fa-circle orange"></i><p class="tab25px">2013 - 2015<br /><span class="tab40px italic">Montpellier</span></p>
+							<i class="fas fa-circle orange"></i><p class="tab1">2013 - 2015<br /><span class="tab2 italic">Montpellier</span></p>
 						</div>
 						<div class="offset-xl-1 col-xl-6 offset-lg-1 col-lg-5 offset-md-1 col-md-7 col-sm-7 col-6">
 							<h4>Université Paul Valéry 3</h4>
@@ -148,7 +150,7 @@
 					</div>
 					<div class="row etape">
 						<div class="offset-xl-1 col-xl-3 offset-lg-1 col-lg-4 col-md-4 col-sm-5 col-6">
-							<i class="fas fa-circle orange"></i><p class="tab25px">2012 - 2013<br /><span class="tab40px italic">Montpellier</span></p>
+							<i class="fas fa-circle orange"></i><p class="tab1">2012 - 2013<br /><span class="tab2 italic">Montpellier</span></p>
 						</div>
 						<div class="offset-xl-1 col-xl-6 offset-lg-1 col-lg-5 offset-md-1 col-md-7 col-sm-7 col-6">
 							<h4>Université Paul Valéry 3</h4>
@@ -157,7 +159,7 @@
 					</div>
 					<div class="row etape">
 						<div class="offset-xl-1 col-xl-3 offset-lg-1 col-lg-4 col-md-4 col-sm-5 col-6">
-							<i class="fas fa-circle orange"></i><p class="tab25px">2011 - 2012<br /><span class="tab40px italic">Montpellier</span></p>
+							<i class="fas fa-circle orange"></i><p class="tab1">2011 - 2012<br /><span class="tab2 italic">Montpellier</span></p>
 						</div>
 						<div class="offset-xl-1 col-xl-6 offset-lg-1 col-lg-5 offset-md-1 col-md-7 col-sm-7 col-6">
 							<h4>Lycée Jean Monnet</h4>
@@ -173,7 +175,7 @@
 					</div>
 					<div class="row etape">
 						<div class="offset-xl-1 col-xl-3 offset-lg-1 col-lg-4 col-md-4 col-sm-5 col-6">
-							<i class="far fa-dot-circle orange"></i><p class="tab25px">Mars 2020 - <br /><span class="tab40px">poste actuel</span><br /><span class="tab40px italic">Albi</span></p>
+							<i class="far fa-dot-circle orange"></i><p class="tab1">Mars 2020 - <br /><span class="tab2">poste actuel</span><br /><span class="tab2 italic">Albi</span></p>
 						</div>
 						<div class="offset-xl-1 col-xl-6 offset-lg-1 col-lg-5 offset-md-1 col-md-7 col-sm-7 col-6">
 							<h4>Safra</h4>
@@ -182,7 +184,7 @@
 					</div>
 					<div class="row etape">
 						<div class="offset-xl-1 col-xl-3 offset-lg-1 col-lg-4 col-md-4 col-sm-5 col-6">
-							<i class="fas fa-circle orange"></i><p class="tab25px">Juillet 2018 -<br /><span class="tab40px">Juillet 2019</span><br /><span class="tab40px italic">Montpellier</span></p>
+							<i class="fas fa-circle orange"></i><p class="tab1">Juillet 2018 -<br /><span class="tab2">Juillet 2019</span><br /><span class="tab2 italic">Montpellier</span></p>
 						</div>
 						<div class="offset-xl-1 col-xl-6 offset-lg-1 col-lg-5 offset-md-1 col-md-7 col-sm-7 col-6">
 							<h4>Noukie's</h4>
@@ -191,7 +193,7 @@
 					</div>
 					<div class="row etape">
 						<div class="offset-xl-1 col-xl-3 offset-lg-1 col-lg-4 col-md-4 col-sm-5 col-6">
-							<i class="fas fa-circle orange"></i><p class="tab25px">Juillet 2016 -<br /><span class="tab40px">Juillet 2019</span><br /><span class="tab40px italic">Montpellier</span></p>
+							<i class="fas fa-circle orange"></i><p class="tab1">Juillet 2016 -<br /><span class="tab2">Juillet 2019</span><br /><span class="tab2 italic">Montpellier</span></p>
 						</div>
 						<div class="offset-xl-1 col-xl-6 offset-lg-1 col-lg-5 offset-md-1 col-md-7 col-sm-7 col-6">
 							<h4>Auchan</h4>
@@ -200,7 +202,7 @@
 					</div>
 					<div class="row etape">
 						<div class="offset-xl-1 col-xl-3 offset-lg-1 col-lg-4 col-md-4 col-sm-5 col-6">
-							<i class="fas fa-circle orange"></i><p class="tab25px">Octobre 2015 -<br /><span class="tab40px">Janvier 2016</span><br /><span class="tab40px italic">Montpellier</span></p>
+							<i class="fas fa-circle orange"></i><p class="tab1">Octobre 2015 -<br /><span class="tab2">Janvier 2016</span><br /><span class="tab2 italic">Montpellier</span></p>
 						</div>
 						<div class="offset-xl-1 col-xl-6 offset-lg-1 col-lg-5 offset-md-1 col-md-7 col-sm-7 col-6">
 							<h4>Linvosges</h4>
@@ -209,7 +211,7 @@
 					</div>
 					<div class="row etape">
 						<div class="offset-xl-1 col-xl-3 offset-lg-1 col-lg-4 col-md-4 col-sm-5 col-6">
-							<i class="fas fa-circle orange"></i><p class="tab25px">Juillet 2014 -<br /><span class="tab40px">Octobre 2015</span><br /><span class="tab40px italic">Montpellier</span></p>
+							<i class="fas fa-circle orange"></i><p class="tab1">Juillet 2014 -<br /><span class="tab2">Octobre 2015</span><br /><span class="tab2 italic">Montpellier</span></p>
 						</div>
 						<div class="offset-xl-1 col-xl-6 offset-lg-1 col-lg-5 offset-md-1 col-md-7 col-sm-7 col-6">
 							<h4>Géant Casino</h4>
