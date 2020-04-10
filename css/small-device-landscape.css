@@ -12,9 +12,6 @@
 		text-decoration: none;
 		color: #666;
 	}
-	#bandeau-etapes p{
-		display: inline;
-	}
 	.gris{
 		color: #666;
 	}
@@ -157,14 +154,12 @@
 	/* BANDEAU ETAPES
 	*****************
 	*/
-	#bandeau-etapes h3{
-		font-size: 1.6em;
-	}
 	#bandeau-etapes h4{
 		text-transform: uppercase;
 		font-size: 1.2em;
 	}
 	#bandeau-etapes p{
+		display: inline;
 		font-size: 0.9em;
 	}
 		/* TITRE
@@ -175,6 +170,7 @@
 			margin: 50px 20px 0px 20px;
 		}
 		#bandeau-etapes h3{
+			font-size: 1.6em;
 			display: inline-block;
 			text-transform: uppercase;
 		}

@@ -134,9 +134,6 @@
 		position: absolute;
 		right: 0;
 	}
-	#bandeau-etapes h3{
-		font-size: 2em;
-	}
 	#bandeau-etapes h4{
 		text-transform: uppercase;
 	}
@@ -165,6 +162,7 @@
 			margin: 50px 20px 0px 150px;
 		}
 		#bandeau-etapes h3{
+			font-size: 2em;
 			display: inline-block;
 			text-transform: uppercase;
 		}
