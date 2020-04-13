@@ -197,4 +197,12 @@
 		.fiche-recommandation h4{
 			font-size: 1.2em;
 		}
+
+	/* FOOTER
+	************
+	*/
+	footer{
+		background: #666;
+		text-align: center;
+	}
 }
