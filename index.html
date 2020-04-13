@@ -9,6 +9,9 @@
 		<title>Laura Valez - CV</title>
 		<meta name="description" content="Développeuse web Freelance, je mets toutes mes compétences au service de votre projet ! Venez découvrir mon parcours atypique à travers mon site CV"> <!-- Meta Description -->
 
+		<!-- JQUERY CDN -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
 		<!-- BOOTSTRAP CDN -->
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
@@ -34,6 +37,23 @@
 		***********************
 		-->
 		<div class="container-fluid">
+			<!-- MENU SMALL DEVICE -->
+			<nav id="menu-small-device" class="row">
+				<a id="icone-menu" data-toggle="collapse" href="#menu-mobile" role="button" aria-expanded="false" aria-controls="mobile-menu" class="fas fa-bars"></a>
+				<ul class="collapse" id="menu-mobile">
+					<li data-toggle="collapse" href="#menu-mobile" aria-expanded="false" aria-controls="mobile-menu"><a href="#formations">Formations</a></li>
+					<li data-toggle="collapse" href="#menu-mobile" aria-expanded="false" aria-controls="mobile-menu"><a href="#experiences">Expériences</a></li>
+					<li data-toggle="collapse" href="#menu-mobile" aria-expanded="false" aria-controls="mobile-menu"><a href="#recommandations">Recommandations</a></li>
+				</ul>
+			</nav>
+			<!-- MENU MEDIUM AND LARGE DEVICE -->
+			<nav id="menu" class="row">
+				<ul class="offset-xl-3 col-xl-9">
+					<li><a href="#formations">Formations</a></li>
+					<li><a href="#experiences">Expériences</a></li>
+					<li><a href="#recommandations">Recommandations</a></li>
+				</ul>
+			</nav>
 			<!-- Le header format tablette et mobile
 			Il est caché lorsqu'on se trouve sur écran supérieur à 991px
 			-->
@@ -48,14 +68,8 @@
 				</div>
 			</header>
 
+
 			<div class="row">
-				<nav id="menu" class="navbar fixed-top col-lg-12 offset-xl-3 col-xl-9">
-					<ul>
-						<li><a href="#formations">Formations</a></li>
-						<li><a href="#experiences">Expériences</a></li>
-						<li><a href="#recommandations">Recommandations</a></li>
-					</ul>
-				</nav>
 				<!-- BANDEAU INFOS 
 				*********************
 				-->

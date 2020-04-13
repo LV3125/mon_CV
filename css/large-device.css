@@ -49,32 +49,43 @@
 	/* MENU 
 	*************
 	*/
-	#menu{
+	#menu-small-device{
+		display: none;
+	}
+	nav{
+		width: 100%;
 		z-index: 1;
+		position: fixed;
 		background: #666;
 		box-shadow: 0px 0px 31px grey;
 	}
-	#menu ul{
-		list-style: none;
-		margin: 10px auto;
-		text-align: center;
-	}
-	#menu ul li{
-		display: inline;
-		margin: 0px 50px;
+	nav a{
+		font-size: 1.5em;
+		color: #000;
+		margin: 0px 10px 0px 15px;
 		text-transform: uppercase;
-		font-weight: bold;
 	}
-	#menu a:hover{
+	nav a:hover{
 		color: #FF9C86;
-		padding-bottom: 3px;
-		border-bottom: 2px solid #FF9C86;
+		border-bottom: 2px solid  #FF9C86;
+		padding-bottom: 5px;
+	}
+	nav ul{
+		text-align: center;
+		margin: 15px auto;
+		z-index: 2;
+		list-style: none;
+	}
+	nav ul li{
+		display: inline;
+		margin-bottom: 20px;
 	}
 
 	/* BANDEAU INFOS
 	******************
 	*/
 	#bandeau-infos{
+		z-index: 2;
 		background: #FF9C86;
 		position: fixed;
 		height: 100vh;
