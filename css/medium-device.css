@@ -12,6 +12,9 @@
 		text-decoration: none;
 		color: #666;
 	}
+	#contact, #a-propos, #loisirs{
+		padding: 0;
+	}
 	.gris{
 		color: #666;
 	}
@@ -93,26 +96,24 @@
 		/* TITRES
 		*********
 		*/
-		.background-gris{
-			background:#666;
-		}
 		.h3-band-infos{
+			background:#666;
 			text-transform: uppercase;
 			text-align: center;
 			color: #FF9C86;
 			font-size: 1.8em;
-			margin: 18px 0px;
+			padding: 20px 0px;
 		}
 		/* CONTACT
 		************
 		*/
-		#bandeau-infos ul{
+		#contact ul{
 			list-style: none;
 			padding: 0px;
 			margin: 20px 30px;
 			word-break: break-all;
 		}
-		#bandeau-infos i{
+		#contact i{
 			font-size: 1.8em;
 			padding: 10px 10px;
 			width: 60px;
@@ -120,21 +121,22 @@
 		/* A PROPOS DE MOI 
 		********************
 		*/
-		#bandeau-infos p{
+		#a-propos p{
 			padding: 30px 20px;
 		}
 		/* LOISIRS 
 		************
 		*/
-		#loisirs{
-			margin: 20px auto;
+		#loisirs .conteneur{
+			width: 80%;
+			margin: 30px auto;
+			text-align: center;
 		}
-		#loisirs div{
+		#loisirs .conteneur div{
 			display: inline-block;
 			height: 80px;
 			width: 80px;
-			margin-left: 15px;
-			margin-bottom: 10px;
+			margin-left: 20px;
 			background-position: center;
 			background-size: 70%;
 			border: 2px solid #666;
