@@ -27,16 +27,19 @@
 	.italic{
 		font-style: italic;
 	}
+	.maj{
+		text-transform: uppercase;
+	}
 		/* FONT 
 		********
 		*/
 		h1{
 			font-family: 'Amatic SC', cursive;
 		}
-		h2, h3, h4, h5, p, li, a{
+		h2, h3, h4, p, li, a{
 			font-family: 'Comic Neue', cursive;
 		}
-		h1, h2, h3, h4, h5{
+		h1, h2, h3, h4{
 			font-weight: bold;
 		}
 
@@ -155,7 +158,6 @@
 	*****************
 	*/
 	#bandeau-etapes h4{
-		text-transform: uppercase;
 		font-size: 1em;
 	}
 	#bandeau-etapes p{
@@ -197,5 +199,8 @@
 		*/
 		.fiche-recommandation{
 			margin: 0px 0px 40px 50px;
+		}
+		.fiche-recommandation h4{
+			font-size: 1.2em;
 		}
 }
