@@ -46,7 +46,14 @@
 			font-weight: bold;
 		}
 
-	/* HEADER
+	/* MENU SMALL DEVICE
+	*************
+	*/
+	#menu{
+		display: none;
+	}
+
+	/* HEADER SMALL DEVICE
 	************
 	*/
 	#screen-header{
@@ -211,5 +218,6 @@
 	footer{
 		background: #666;
 		text-align: center;
+		box-shadow: 0px 0px 31px grey;
 	}
 }
